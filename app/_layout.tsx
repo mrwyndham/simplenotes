@@ -7,9 +7,10 @@ import {
 import { useFonts } from "expo-font";
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
-import { useColorScheme } from "react-native";
+import { TouchableOpacity, useColorScheme, Text } from "react-native";
 import "../styles.css";
 import { NativeWindStyleSheet } from "nativewind";
+import colors from "@/utils/colors";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -58,7 +59,17 @@ function RootLayoutNav() {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: "modal" }} />
+        <Stack.Screen
+          name="modal"
+          options={{ presentation: "modal", title: "Back" }}
+        />
+        <Stack.Screen
+          name="addEditNote"
+          options={{
+            presentation: "modal",
+            title: "Back",
+          }}
+        />
       </Stack>
     </ThemeProvider>
   );

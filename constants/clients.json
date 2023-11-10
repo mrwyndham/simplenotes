@@ -1,0 +1,24 @@
+{
+  "clients": [
+    {
+      "label": "John Doe",
+      "value": "1"
+    },
+    {
+      "label": "Jane Smith",
+      "value": "2"
+    },
+    {
+      "label": "Bob Johnson",
+      "value": "3"
+    },
+    {
+      "label": "Alice Williams",
+      "value": "4"
+    },
+    {
+      "label": "Charlie Brown",
+      "value": "5"
+    }
+  ]
+}

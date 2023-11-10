@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "label": "Goal Evidence",
+      "value": "1"
+    },
+    {
+      "label": "Support Coordination",
+      "value": "2"
+    },
+    {
+      "label": "Active Duty",
+      "value": "3"
+    }
+  ]
+}

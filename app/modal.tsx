@@ -6,7 +6,7 @@ import * as Linking from "expo-linking";
 export default function ModalScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Samuel Wyndham | Sign365</Text>
+      <Text style={styles.title}>Samuel Wyndham</Text>
       <View
         style={styles.separator}
         lightColor="#eee"
@@ -25,12 +25,6 @@ export default function ModalScreen() {
         }
       >
         LinkedIn
-      </TouchableOpacity>
-      <TouchableOpacity
-        className=" text-light-tint mb-8"
-        onPress={() => Linking.openURL("https://sign365.com.au/")}
-      >
-        Website
       </TouchableOpacity>
 
       {/* Use a light status bar on iOS to account for the black space above the modal */}

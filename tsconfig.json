@@ -21,6 +21,9 @@
       ],
       "@/types/*": [
         "types/*"
+      ],
+      "@/constants/*": [
+        "constants/*"
       ]
     }
   },

@@ -26,8 +26,10 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Template App",
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: "Simple Notes",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome name="sticky-note-o" size={24} color={color} />
+          ),
           headerRight: () => (
             <Link href="/modal" asChild>
               <Pressable>
@@ -42,13 +44,6 @@ export default function TabLayout() {
               </Pressable>
             </Link>
           ),
-        }}
-      />
-      <Tabs.Screen
-        name="two"
-        options={{
-          title: "Check Us Out",
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
     </Tabs>
